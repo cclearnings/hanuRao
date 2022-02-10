@@ -1,0 +1,26 @@
+<suite name="Parallel tests" parallel="tests" thread-count="5" >
+    <test name="Test Validations">
+        <parameter name="test-name" value="Test One"/>
+        <classes>
+            <class name="main.java.com.project.tests.Validations" />
+        </classes>
+    </test>
+    <test name="Test Additon">
+        <parameter name="test-name" value="Test Two"/>
+        <classes>
+            <class name="main.java.com.project.tests.TestAddition" />
+        </classes>
+    </test>
+    <test name="Test Suite 3">
+        <parameter name="test-name" value="Test Two"/>
+        <classes>
+            <class name="main.java.com.project.tests.Suite3" />
+        </classes>
+    </test>
+    <test name="Test Suite 4">
+        <parameter name="test-name" value="Test Two"/>
+        <classes>
+            <class name="main.java.com.project.tests.Suite4" />
+        </classes>
+    </test>
+</suite>
